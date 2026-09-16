@@ -124,7 +124,7 @@ The requirement asks for “a ruleset **or** classifier”. I went with the rule
 def enforceTokenBudget(text: String): Either[String, String] =
  val tokens = Tokenizer.countTokensOrdinary(SystemPrompt + text) + 8
  if tokens <= MaxPromptTokens then Right(text)
- else Left(s"[2.1.4] $tokens tokens exceed the $MaxPromptTokens budget (rejected, not truncated)")
+ else Left(s"[2.1.4] $tokens tokens exceed the $MaxPromptTokens budget")
 ```
 
 The budget covers the **assembled** prompt, so the system message counts too, and the `+ 8` is the role and delimiter framing the API adds per message.
