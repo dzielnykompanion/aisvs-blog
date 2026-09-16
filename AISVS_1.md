@@ -9,7 +9,7 @@ Not so long ago, I wrote an article about [OWASP ASVS 5.0](https://softwaremill.
 The first release of AISVS  **Artificial Intelligence Security Verification Standard**  was released in June 2026 and is available [here](https://owasp.github.io/www-project-artificial-intelligence-security-verification-standard-aisvs-docs/). AISVS describes itself as
 
 ```
-“an open catalogue of testable security requirements for AI-enabled systems, covering the lifecycle from data collection and training through deployment, monitoring and retirement"
+“a community-driven catalogue of testable security requirements for AI-enabled systems”
 ```
 
 AISVS does not replace existing security standards. It complements **NIST AI RMF** and **ISO/IEC 42001**, which cover AI governance and risk management, by providing technical requirements that you can test. It also refers to the **OWASP Top 10 for LLM Applications** and **MITRE ATLAS** for specific AI threats.
