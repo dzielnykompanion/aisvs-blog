@@ -39,7 +39,7 @@ can apply to all AI-enabled systems by default. **Below are AI-enabled applicati
 | --- | --- | --- | --- |
 | **Product description AI generator** | Turns public product data into draft descriptions, with human review before publication. No access to sensitive data or external tools. | **1** | Cross-cutting chapters only |
 | **Support chatbot with RAG** | Fine-tuned on historical support conversations, retrieves internal knowledge before answering. | **2** | **C1 Training Data Integrity & Traceability** - know where the fine-tuning data came from and detect unauthorized access<br>**C8 Memory, Embeddings & Vector Database Security** - RAG content can be poisoned or manipulated |
-| **AI document processing system** | Receives untrusted business documents and returns extracted data as a summary or a single decision. The document itself may carry hidden instructions, so prompt injection does not need a chat interface. | **2** | **C11 Adversarial Robustness** - keeping the system reliable when facing poisoning and adversarial input |
+| **AI document processing system** | Receives untrusted business documents and returns extracted data as a summary or a single decision. The document itself may carry hidden instructions, so prompt injection does not need a chat interface. | **2** | Cross-cutting chapters only |
 | **AI agent chatbot** | Uses MCP to reach email, calendars, or payment APIs, so it can trigger payments and other high-impact actions. | **3** | **C9 Orchestration & Agentic Security** - bounds what the agent may do and keeps high-impact actions under human control<br>**C10 Model Context Protocol (MCP)** - untrusted servers, stolen tokens, malicious tool responses |
 
 
