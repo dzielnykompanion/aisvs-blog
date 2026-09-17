@@ -179,8 +179,6 @@ It treats coding assistants, review bots, autonomous agents, and MCP servers as 
 
 The most interesting shift is that **your repository becomes untrusted input**. Pull requests, issues, documentation, and MCP responses can contain prompt injections that influence an AI reviewer or extract secrets. The same input-security mindset used for application users now also applies to your development workflow.
 
-The separation-of-duties requirements are also important. Once an agent can open pull requests or run pipelines, it is no longer only a coding assistant. It becomes a privileged system identity. It cannot approve, merge, sign, or deploy its own work. **AI can create a change, but it cannot be the final authority over it.**
-
 # Summary
 
 So - **is AISVS actually helpful when you build an AI-enabled system? Yes, but not as a checklist you tick off.**
